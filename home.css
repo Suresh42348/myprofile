@@ -2,11 +2,15 @@ body{
     margin-left:10%; 
     margin-right:10%;
     background-attachment: fixed;
-    background-image: url(bg5.jpg);
+    /*background-image: url(bg5.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    /*color: white;*/
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 .header{
     height:auto;
     background-color: lightseagreen;
