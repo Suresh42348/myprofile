@@ -10,9 +10,9 @@
     <body>
         <div class="container-xxl">
             <!-- navigation bar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">  <a class="navbar-brand" href="#">
-                    <img src="./images/profile.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <img src="./images/profile.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                             <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
@@ -34,17 +34,46 @@
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
+
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/profile.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#project">Projects</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+                    </ul>
+                    <div id="social" class="social d-flex">
+                        <ul >
+                            <li><span class="social-icon social-facebook"><i class="fa fa-facebook" onclick="location.href='https://www.facebook.com/Suresh42348'"></i></span></li>
+                            <li><span class="social-icon social-github"><i class="fa fa-github" onclick="location.href='https://github.com/Suresh42348'"></span></i>
+                            <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin" onclick="location.href='https://www.linkedin.com/in/suresh-kumar-53454b217/'"></i></span></li>
+                            <li><span class="social-icon social-instagram"><i class="fa fa-instagram" onclick="location.href='https://www.instagram.com/?hl=en'"></i></span></li>
+                            <li><span class="social-icon social-twitter"><i class="fa fa-twitter" onclick="location.href='https://twitter.com/home'"></i></span></li>
+                            <li><span class="social-icon social-Stack"><i class="fa fa-stack-overflow" onclick="location.href='https://stackoverflow.com/users/17941472/suresh-kumar'"></i></span></li>
+                        </ul>
+                    
+                    </div>
+                </div>
+              </nav>
 
             <div class=" profile container ">
-                <div class="row" style="background-color: orange;">
+                <div class="row" style="background-color: white;">
                     <div  class="col">
                         <figure class="swing">
                         <img src="./images/pic7.jpg" id="pic" class="rounded-circle" alt="Cinque Terre">
                         </figure>
                     </div>
-                    <div  style="background-color:  #a9d0f7;" class="col">
-                        <h1><br>SURESH KUMAR<br></h1>  
+                    <div  style="background-color: white;" class="col">
+                        <h1 class="animate-charcter"><br>SURESH KUMAR<br></h1>  
                     </div>
                   </div>
             </div>
@@ -76,8 +105,8 @@
                             <h2 style="text-align:center;">HOBBIES </h2></div>
                 </div>
                 <!-- SKILLS -->
-                <div class="row "> 
-                    <div class="col" style="margin-top:1.5%;">
+                <div class="row"> 
+                    <div class="col" style="margin-top:1.5%;background-color: lightgoldenrodyellow;">
                         <!-- 1st row -->
                         <div class="row">
                             <div class="col">
@@ -96,6 +125,12 @@
                                 <figure>
                                     <img src="./images/javascript.png" alt="Html" hight="100px" width="100px" class="rounded-circle">
                                     <FIGCAPTION>JAVASCRIPT</FIGCAPTION>
+                                    </figure>
+                            </div>
+                            <div class="col">
+                                <figure>
+                                    <img src="./images/java.png" alt="java" hight="100px" width="100px" class="rounded-circle">
+                                    <FIGCAPTION>JAVA</FIGCAPTION>
                                     </figure>
                             </div>
 
@@ -122,6 +157,12 @@
                                     <FIGCAPTION>PHP</FIGCAPTION>
                                     </figure>
                             </div>
+                            <div class="col">
+                                <figure>
+                                    <img src="./images/Python.png" alt="Python" hight="100px" width="100px" class="rounded-circle">
+                                    <FIGCAPTION>PYthon</FIGCAPTION>
+                                    </figure>
+                            </div>
 
 
                         </div>
@@ -130,7 +171,7 @@
 
                     </div>
                     <!-- HOBBIES -->
-                    <div id="hobbies" class="col" style="margin-top:1.5%;">
+                    <div id="hobbies" class="col" style="margin-top:1.5%;background-color: gainsboro;">
                         <div class="col">
                             <!-- 1st row -->
                             <div class="row">
@@ -150,6 +191,13 @@
                                     <figure>
                                         <img src="./images/teaching.jpg" alt="Html" hight="100px" width="100px" class="rounded-circle">
                                         <FIGCAPTION>TEACHING</FIGCAPTION>
+                                        </figure>
+                                </div>
+
+                                <div class="col">
+                                    <figure>
+                                        <img src="./images/yoga.png" alt="yoga" hight="100px" width="100px" class="rounded-circle">
+                                        <FIGCAPTION>YOGA</FIGCAPTION>
                                         </figure>
                                 </div>
     
@@ -174,6 +222,13 @@
                                     <figure>
                                         <img src="./images/tracking.jpg" alt="Html" hight="100px" width="100px" class="rounded-circle">
                                         <FIGCAPTION>MOUNTAIN TRACKING</FIGCAPTION>
+                                        </figure>
+                                </div>
+
+                                <div class="col">
+                                    <figure>
+                                        <img src="./images/gaming.jpg" alt="gaming" hight="100px" width="100px" class="rounded-circle">
+                                        <FIGCAPTION>Gaming</FIGCAPTION>
                                         </figure>
                                 </div>
                             </div>
@@ -258,11 +313,13 @@
                         </div>
                     </div>
 
-                    <!-- footer -->
-                    <div class="container"style="background-color: rgb(4, 167, 4); margin-top:1.5%;">
-                        <footer><center><h3>&hearts; by &copy;Suresh Kumar<h3></h2></center></footer>
-                    </div>
+                    
                 </div>
+            </div>
+
+            <!-- footer -->
+            <div class="container"style="background-color: rgb(4, 167, 4); margin-top:1.5%;">
+                <footer><center><h4>&hearts; by &copy;Suresh Kumar<h4></center></footer>
             </div>
 
         
