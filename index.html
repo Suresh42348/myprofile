@@ -16,20 +16,20 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                             <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Home</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">Hobbies</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">Education</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">Projects</a> </li>
-                            <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#skills">Skills &Hobbies </a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#project">Projects</a> </li>
+                            <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
 
                         </ul>
                         <div id="social" class="social d-flex">
                             <ul >
-                                <li><span class="social-icon social-facebook"><i class="fa fa-facebook"></i></span></li>
-                                <li><span class="social-icon social-google"><i class="fa fa-google"></i></span></li>
-                                <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin"></i></span></li>
-                                <li><span class="social-icon social-instagram"><i class="fa fa-instagram"></i></span></li>
-                                <li><span class="social-icon social-twitter"><i class="fa fa-twitter"></i></span></li>
+                                <li><span class="social-icon social-facebook"><i class="fa fa-facebook" onclick="location.href='https://www.facebook.com/Suresh42348'"></i></span></li>
+                                <li><span class="social-icon social-github"><i class="fa fa-github" onclick="location.href='https://github.com/Suresh42348'"></span></i>
+                                <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin" onclick="location.href='https://www.linkedin.com/in/suresh-kumar-53454b217/'"></i></span></li>
+                                <li><span class="social-icon social-instagram"><i class="fa fa-instagram" onclick="location.href='https://www.instagram.com/?hl=en'"></i></span></li>
+                                <li><span class="social-icon social-twitter"><i class="fa fa-twitter" onclick="location.href='https://twitter.com/home'"></i></span></li>
+                                <li><span class="social-icon social-Stack"><i class="fa fa-stack-overflow" onclick="location.href='https://stackoverflow.com/users/17941472/suresh-kumar'"></i></span></li>
                             </ul>
                         </div>
                     </div>
@@ -43,15 +43,15 @@
                         <img src="./images/pic7.jpg" id="pic" class="rounded-circle" alt="Cinque Terre">
                         </figure>
                     </div>
-                    <div  style="background-color: aqua;" class="col">
-                        <span>SURESH KUMAR</span>  
+                    <div  style="background-color:  #a9d0f7;" class="col">
+                        <h1><br>SURESH KUMAR<br></h1>  
                     </div>
                   </div>
             </div>
 
             <!-- about me -->
-            <div class=" profile container">
-                <div class="row" style="background-color: lightskyblue;">
+            <div id="about" class=" profile container">
+                <div class="row" style="background-color: rgb(30, 241, 30)">
                     <h2 style="text-align:center;">About Me </h2></div>
            
 
@@ -67,12 +67,12 @@
             </div>
 
             <!-- hobbies and skills -->
-            <div class="hobbies container">
+            <div id="skills" class="hobbies container">
                 <div class="row">
-                    <div class="col" style="background-color: lightskyblue;">
+                    <div class="col" style="background-color: rgb(30, 241, 30);">
                         <h2 style="text-align:center;">SKILLS </h2></div>
 
-                    <div class="col" style="background-color: lightskyblue;">
+                    <div class="col" style="background-color: rgb(250, 112, 61)">
                             <h2 style="text-align:center;">HOBBIES </h2></div>
                 </div>
                 <!-- SKILLS -->
@@ -130,7 +130,7 @@
 
                     </div>
                     <!-- HOBBIES -->
-                    <div class="col" style="margin-top:1.5%;">
+                    <div id="hobbies" class="col" style="margin-top:1.5%;">
                         <div class="col">
                             <!-- 1st row -->
                             <div class="row">
@@ -184,8 +184,8 @@
 
             <!-- projects -->
 
-            <div class=" profile container">
-                <div class="row" style="background-color: lightskyblue;">
+            <div id="project" class=" profile container">
+                <div class="row" style="background-color: rgb(250, 112, 61);">
                     <h2 style="text-align:center;">PROJECTS </h2></div>
            
 
@@ -194,10 +194,10 @@
                         <div class="card mb-3">
                             <img src="./images/zommato.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Online Food Delevery Website</h5>
-                              <p class="card-text">This is a online food delevery website which is providing you varipus services ranging from online
+                              <h5 class="card-title"style="font-size:25px;" >Online Food Delevery Website</h5>
+                              <p class="card-text" style="text-align:left">This is a online food delevery website which is providing you varipus services ranging from online
                                   resturent booking ,finding your populer resturents at on your location and door step delevery of your food items. </p>
-                              <button type="button" class="btn btn-success">Click Here</button>
+                              <button type="button" class="btn btn-success" onclick="location.href='https://suresh42348.github.io/First-Project--Zomato/'" >Click Here</button>
                             </div>
                           </div>
 
@@ -207,11 +207,11 @@
                         <div class="card mb-3">
                             <img src="./images/bookstore.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">A Bookstore Website</h5>
-                              <p class="card-text">This is a online Bookstore Website where a book seller can feature and sell wide variedy 
-                                  of books and a customer can find and buy these books according to his/her need without any geographical constraints.
+                              <h5 class="card-title" style="font-size:25px;">A Bookstore Website</h5>
+                              <p class="card-text" style="text-align:left">This is a online Bookstore Website where a book seller can feature and sell wide variedy 
+                                  of books and a customer can find and buy these books according to his/her need without going anywhere.
                               </p>
-                              <button type="button" class="btn btn-success">Click Here</button>
+                              <button type="button" class="btn btn-success" onclick="location.href='https://suresh42348.github.io/Major-Project-Book-Store/'">Click Here</button>
                             </div>
                           </div>
 
@@ -222,16 +222,16 @@
             </div>
 
             <!-- Map and contact form -->
-            <div class=" profile container">
+            <div id="contact" class=" profile container">
                 <div class="row">
-                    <div class="col" style="background-color: lightskyblue;">
+                    <div class="col" style="background-color:rgb(30, 241, 30);;">
                         <h2 style="text-align:center;">HERE I LIVE</h2></div>
 
-                    <div class="col" style="background-color: lightskyblue;">
+                    <div class="col" style="background-color:  rgb(250, 112, 61);">
                             <h2 style="text-align:center;">CONTACT FORM</h2></div>
                 </div>
 
-                <div class="row">
+                <div class="row" style="margin-top:1.5%">
                     <div class="col">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6834.113421542044!2d77.17255967478313!3d31.080349476069248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578b3ecb53855%3A0x2c15029818578e4a!2sVikasnagar%2C%20Shimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1642348579558!5m2!1sen!2sin" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               
@@ -240,10 +240,8 @@
 
                     <div class="col">
                         <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="fname" >
-                            <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="Lname" >
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" >
                             <label for="exampleFormControlInput1" class="form-label">Phone</label>
                             <input type="number" class="form-control" id="phone" >
                             <label for="exampleFormControlInput1" class="form-label">City</label>
@@ -261,8 +259,8 @@
                     </div>
 
                     <!-- footer -->
-                    <div class="container-fluid" style="background-color: lightgreen;">
-                        <footer><center><h2>&hearts; by &copy;Suresh Kumar<h2></h2></center></footer>
+                    <div class="container"style="background-color: rgb(4, 167, 4); margin-top:1.5%;">
+                        <footer><center><h3>&hearts; by &copy;Suresh Kumar<h3></h2></center></footer>
                     </div>
                 </div>
             </div>
