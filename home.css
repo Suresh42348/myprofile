@@ -11,11 +11,11 @@ body {
     
 }
 .navbar .navbar-nav .nav-link:hover{
-    color: white;
+    color: darkred;
     font-weight: bold;
 }
 .navbar{
-    background-color: rgb(4, 167, 4) !important;
+    background-color:lightgrey!important;
 }
 
 ul {
