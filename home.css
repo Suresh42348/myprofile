@@ -86,15 +86,15 @@ h2{
 
 .profile{
     margin-top:2%;
-    margin-left:5%;
-    width:90%;
+    /* margin-left:5%; */
+    /* width:90%; */
     
 }
 .hobbies{
     
     margin-top:2%;
-    margin-left:5%;
-    width:90%;
+    /* margin-left:5%; */
+    /* width:90%; */
     
 }
 p{
@@ -264,10 +264,7 @@ and (max-width : 767px) {
 
 @media only screen 
 and (max-width : 500px) {
-    .swing{
-        margin-top:2%;
-        margin-left:27px;
-}
+  
 h1{
     line-height: 1;
     font-size: 50px;
@@ -276,4 +273,15 @@ h1{
 p{
     font-size:18px;
 }
+.picture{
+    margin-left:0;
 }
+.hobbies{
+    margin-left:0;
+}
+.swing{
+    margin-top:2%;
+    margin-left:60px;
+}
+}
+
